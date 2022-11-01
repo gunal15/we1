@@ -1,0 +1,74 @@
+body{
+    background-color:darksalmon;
+    
+}
+.main1{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+.form-group{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.form-control{
+    width:520px;
+    margin-top:120px;
+    margin-left:130px;
+}
+
+p{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-family:'Courier New', Courier, monospace;
+        letter-spacing: 2px;
+        cursor: pointer
+      }
+      p span{
+        transition: .5s linear
+      }
+      p:hover span:nth-child(1){
+        margin-right: 5px
+      }
+      
+      
+      p:hover span:nth-child(2){
+        margin-left: 30px
+      }
+      p:hover span{
+        color: #fff;
+        text-shadow: 0 0 10px #fff,
+                     0 0 20px #fff, 
+                     0 0 40px #fff;
+}
+
+h1 {
+    font-size: 8vw;
+    line-height: 8vw;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    background: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/black-lives-matter/victim-collage.png);
+    background-size: 40%;
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0.08);
+    animation: zoomout 10s ease 500ms forwards;
+  }
+  
+  @keyframes zoomout {
+    from {
+      background-size: 40%;
+    }
+    to {
+      background-size: 10%;
+    }
+  }
+
+button{
+    padding-left: 50px;
+    margin-top: 20px;
+}
